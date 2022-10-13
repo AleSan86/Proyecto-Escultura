@@ -1,0 +1,313 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box; }
+
+.bg {
+  background-color: #1e1e1e; }
+
+header img {
+  width: 100%; }
+
+header .navbar ul {
+  display: flex;
+  justify-content: center;
+  margin: 0; }
+  header .navbar ul li {
+    list-style: none;
+    margin: 0 2%;
+    padding: 2%; }
+    header .navbar ul li a {
+      padding: 15px;
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: #faa638; }
+      header .navbar ul li a:hover {
+        color: whitesmoke; }
+
+header .navbar-expand-lg .navbar-nav {
+  justify-content: space-around;
+  width: 100%; }
+
+header .navbar-toggler {
+  background-color: #faa638; }
+
+main .container {
+  color: white;
+  padding: 2%;
+  margin: 0;
+  min-width: 100%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden; }
+  main .container article {
+    padding: 0 12%; }
+  main .container h1 {
+    text-align: center;
+    margin: 2vh; }
+  main .container h3 {
+    text-align: center;
+    margin: 2vh; }
+  main .container #carouselAlumnos img {
+    height: 80vh;
+    margin: 0; }
+  main .container > img {
+    border-radius: 20px;
+    border: solid white 2px;
+    height: 60vh;
+    margin: 5%; }
+  main .container .info-cursos article {
+    display: flex;
+    padding-top: 10vh; }
+    main .container .info-cursos article > img {
+      border-radius: 50%;
+      border: solid white 2px;
+      height: 20vh;
+      position: relative;
+      top: -3vh;
+      left: 10vh;
+      margin: 0; }
+    main .container .info-cursos article .carrusel {
+      display: none;
+      width: 70vw;
+      height: 45vh;
+      margin-bottom: 10vh;
+      padding: 5vw; }
+  main .container .info-cursos .curso {
+    display: flex;
+    width: 95%;
+    text-align: left;
+    background-color: #3d3b3b;
+    border-radius: 10px;
+    padding: 20px 30px 20px 12vh;
+    box-shadow: 5px 8px 19px 2px rgba(105, 86, 86, 0.75); }
+    main .container .info-cursos .curso div {
+      width: 50%;
+      text-align: center; }
+      main .container .info-cursos .curso div p {
+        text-align: justify;
+        padding: 10%;
+        font-size: 15px; }
+      main .container .info-cursos .curso div .button {
+        text-align: justify;
+        padding: 10%;
+        font-size: 20px; }
+      main .container .info-cursos .curso div a {
+        text-decoration: none; }
+  main .container .formulario .datos {
+    margin-top: 20px;
+    background: #24303c;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #1f53c5; }
+  main .container .formulario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 2%; }
+  main .container .formulario .imagen {
+    position: flex; }
+  main .container .info-profes img {
+    border-radius: 50%;
+    border: solid white 2px;
+    height: 20vh;
+    position: relative;
+    top: -3vh;
+    left: 10vh;
+    margin: 0; }
+  main .container .info-profes .profe {
+    background-color: #3d3b3b;
+    border-radius: 10px;
+    padding: 20px 30px 20px 12vh;
+    box-shadow: 5px 8px 19px 2px rgba(105, 86, 86, 0.75);
+    width: 75%;
+    margin: 3%; }
+  main .container .info-profes article {
+    display: flex;
+    padding-top: 10vh; }
+
+main section p {
+  margin: 3%; }
+  main section p ul li {
+    margin-right: 30%; }
+
+main #bienvenida {
+  color: white;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  width: 100vw; }
+
+main #estilohr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  overflow: hidden; }
+
+main #notas {
+  font-size: 12px; }
+
+main #formulario {
+  border: solid;
+  border-radius: 10px;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+main .boton_enviar {
+  width: 100%;
+  background: #1f53c5;
+  color: white;
+  border: none;
+  padding: 12px;
+  margin: 16px 0;
+  font-size: 16px;
+  border-radius: 4px; }
+
+main #galeria {
+  width: 100%;
+  padding-top: 5px;
+  margin: 2%;
+  display: table; }
+
+main #mapa {
+  background-color: var(--main-bg-color);
+  width: 100%; }
+
+main .grid-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto; }
+  main .grid-container img {
+    border: solid 1px whitesmoke;
+    margin: 12px;
+    border-radius: 15px;
+    width: 90%;
+    height: 90%; }
+
+.wpp-fixed {
+  color: white;
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .wpp-fixed i {
+    color: #30b444; }
+    .wpp-fixed i:hover {
+      color: white; }
+  .wpp-fixed:hover {
+    animation-name: moverBoton;
+    animation-duration: 3s;
+    animation-delay: 0.3;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; }
+
+@keyframes moverBoton {
+  0% {
+    transform: scale(1, 1); }
+  25% {
+    transform: scale(1.1, 1.1); }
+  50% {
+    transform: scale(1.2, 1.2); }
+  100% {
+    transform: scale(1, 1); } }
+
+footer {
+  color: white;
+  padding: 2%; }
+  footer p {
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 2%; }
+  footer #redes a {
+    text-decoration: none;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #2c3e50;
+    color: white;
+    margin: 2%;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s; }
+    footer #redes a:hover i {
+      transform: rotate(25deg);
+      font-size: 24px; }
+  footer #redes .icon_facebook:hover {
+    background: #1f53c5; }
+  footer #redes .icon_instagram:hover {
+    background: #e1306c;
+    color: black; }
+  footer #redes .icon_pinterest:hover {
+    background: red; }
+  footer #redes .icon_twitter:hover {
+    background: #46C1F6; }
+  footer #redes .icon_youtube:hover {
+    background: red;
+    color: black; }
+
+@media screen and (max-width: 991px) {
+  header nav .container {
+    flex-direction: row-reverse; }
+  main .container .info-cursos .curso {
+    flex-wrap: wrap; }
+    main .container .info-cursos .curso div {
+      width: 100%; }
+      main .container .info-cursos .curso div p {
+        text-align: center; }
+  main .container .info-cursos article .grid-container {
+    display: none; }
+  main .container .info-cursos article .carrusel {
+    display: inline;
+    margin: 0;
+    padding: 10px;
+    height: fit-content;
+    width: 110%; }
+  main .container .info-profes .profe div {
+    width: 100%; } }
+
+@media screen and (min-width: 992px) and (max-width: 1500px) {
+  main .container .info-cursos article {
+    padding-top: 0;
+    flex-direction: column;
+    align-items: center; }
+    main .container .info-cursos article img {
+      top: 3vh;
+      left: 0; }
+  main .container .info-cursos .curso {
+    padding: 20px; } }
+
+@media screen and (max-width: 767px) {
+  main .container .info-cursos article {
+    padding-top: 0;
+    flex-direction: column;
+    align-items: center; }
+    main .container .info-cursos article img {
+      top: 3vh;
+      left: 0; }
+  main .container .info-cursos .curso {
+    padding: 20px; }
+  main .container .info-profes article {
+    padding-top: 0;
+    flex-direction: column;
+    align-items: center; }
+    main .container .info-profes article img {
+      top: 3vh;
+      left: 0; }
+  main .container .info-profes .profe {
+    padding: 20px; } }

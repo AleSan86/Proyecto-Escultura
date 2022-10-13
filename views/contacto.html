@@ -10,7 +10,7 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../style.css" />
     <link rel="shortcut icon" href="./images/favicon.ico" />
     <script
       src="https://kit.fontawesome.com/e968cd04a2.js"
@@ -19,56 +19,35 @@
     <title>Contacto</title>
   </head>
   <body>
-    <header>
-      <img src="../img/BannerHome.jpg" alt="BannerHome" />
-    </header>
-    <main>
-      <nav class="navbar fixed-top navbar-expand-lg">
-        <div class="container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./cursos.html">Cursos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./profesores.html"
-                  >Profesores</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./galeria.html">Galeria/info</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-              </li>
-            </ul>
+    
+    <header class="bg">
+      <img src="../img/BannerHome.jpg" alt="BannerHome">
+      <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" aria-current="page" href="/index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="../views/cursos.html">Cursos</a></li>
+                  <li class="nav-item"><a class="nav-link" href="../views/profesores.html">Profesores</a></li>
+                  <li class="nav-item"><a class="nav-link" href="../views/galeria.html">Galeria/info</a></li>
+                  <li class="nav-item"><a class="nav-link" href="../views/contacto.html">Contacto</a></li>
+              </ul>
+            </div>
           </div>
-        </div>
       </nav>
+  </header>
+
+    <main class="bg">
 
       <div class="container">
         <section class="formulario">
           <form action="" id="formulario">
             <h3>Formulario de contacto</h3>
-
             <hr />
-
             <input
               class="datos"
               type="text"
@@ -121,7 +100,7 @@
       </a>
     </div>
 
-    <footer>
+    <footer class="bg">
       <nav>
         <p>Seguinos en nuestras redes sociales</p>
         <div id="redes">
