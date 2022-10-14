@@ -1,5 +1,5 @@
 .wpp-fixed {
-	
+
 	color: white;
 	border-radius: 50%;
 	width: 10em;
@@ -10,34 +10,39 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 	i {
 		color: #30b444;
+
 		&:hover {
 			color: white;
 		}
 	}
-	
+
 	&:hover {
 		animation-name: moverBoton;
 		animation-duration: 3s;
 		animation-delay: 0.3;
 		animation-timing-function: linear;
 		animation-iteration-count: infinite;
-}
+	}
 
-@keyframes moverBoton {
-	0% {
-		transform: scale(1, 1);
+	@keyframes moverBoton {
+		0% {
+			transform: scale(1, 1);
+		}
+
+		25% {
+			transform: scale(1.1, 1.1);
+		}
+
+		50% {
+			transform: scale(1.2, 1.2);
+		}
+
+		100% {
+			transform: scale(1, 1);
+		}
 	}
-	25% {
-		transform: scale(1.1, 1.1);
-	}
-	50% {
-		transform: scale(1.2, 1.2);
-	}
-	100% {
-		transform: scale(1, 1);
-	}
-}
 
 }
