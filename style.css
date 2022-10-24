@@ -172,16 +172,6 @@ main .boton_enviar {
   font-size: 16px;
   border-radius: 4px; }
 
-main #galeria {
-  width: 100%;
-  padding-top: 5px;
-  margin: 2%;
-  display: table; }
-
-main #mapa {
-  background-color: var(--main-bg-color);
-  width: 100%; }
-
 main .grid-container {
   display: grid;
   grid-template-rows: auto auto;
@@ -192,6 +182,9 @@ main .grid-container {
     border-radius: 15px;
     width: 90%;
     height: 90%; }
+
+main .container section article .info-gral .tab-content {
+  width: 80%; }
 
 .wpp-fixed {
   color: white;

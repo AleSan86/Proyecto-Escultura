@@ -9,29 +9,35 @@ main {
 		flex-direction: column;
 		align-items: center;
 		overflow-x: hidden;
+
 		article {
 			padding: 0 12%;
 		}
+
 		h1 {
 			text-align: center;
 			margin: 2vh;
 		}
+
 		h3 {
 			text-align: center;
 			margin: 2vh;
 		}
+
 		#carouselAlumnos {
 			img {
 				height: 80vh;
 				margin: 0;
 			}
 		}
+
 		>img {
 			border-radius: 20px;
 			border: solid white 2px;
 			height: 60vh;
 			margin: 5%;
 		}
+
 		.info-cursos {
 			article {
 				>img {
@@ -43,8 +49,10 @@ main {
 					left: 10vh;
 					margin: 0;
 				}
+
 				display: flex;
 				padding-top: 10vh;
+
 				.carrusel {
 					display: none;
 					width: 70vw;
@@ -53,6 +61,7 @@ main {
 					padding: 5vw;
 				}
 			}
+
 			.curso {
 				display: flex;
 				width: 95%;
@@ -60,26 +69,31 @@ main {
 				background-color: rgb(61, 59, 59);
 				border-radius: 10px;
 				padding: 20px 30px 20px 12vh;
-				box-shadow: 5px 8px 19px 2px rgba(105,86,86,0.75);
+				box-shadow: 5px 8px 19px 2px rgba(105, 86, 86, 0.75);
+
 				div {
 					width: 50%;
 					text-align: center;
+
 					p {
 						text-align: justify;
 						padding: 10%;
 						font-size: 15px;
 					}
+
 					.button {
 						text-align: justify;
 						padding: 10%;
 						font-size: 20px;
 					}
+
 					a {
 						text-decoration: none;
 					}
 				}
 			}
 		}
+
 		.formulario {
 			.datos {
 				margin-top: 20px;
@@ -90,16 +104,19 @@ main {
 				border-radius: 4px;
 				border: 1px solid #1f53c5;
 			}
+
 			p {
 				height: 40px;
 				text-align: center;
 				font-size: 18px;
 				margin-top: 2%;
 			}
+
 			.imagen {
 				position: flex;
 			}
 		}
+
 		.info-profes {
 			img {
 				border-radius: 50%;
@@ -110,23 +127,27 @@ main {
 				left: 10vh;
 				margin: 0;
 			}
+
 			.profe {
 				background-color: rgb(61, 59, 59);
 				border-radius: 10px;
 				padding: 20px 30px 20px 12vh;
-				box-shadow: 5px 8px 19px 2px rgba(105,86,86,0.75);
+				box-shadow: 5px 8px 19px 2px rgba(105, 86, 86, 0.75);
 				width: 75%;
 				margin: 3%;
 			}
+
 			article {
 				display: flex;
 				padding-top: 10vh;
 			}
 		}
 	}
+
 	section {
 		p {
 			margin: 3%;
+
 			ul {
 				li {
 					margin-right: 30%;
@@ -134,6 +155,7 @@ main {
 			}
 		}
 	}
+
 	#bienvenida {
 		color: white;
 		text-align: justify;
@@ -143,15 +165,18 @@ main {
 		border: none;
 		width: 100vw;
 	}
+
 	#estilohr {
 		border: 0;
 		height: 1px;
 		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 		overflow: hidden;
 	}
+
 	#notas {
 		font-size: 12px;
 	}
+
 	#formulario {
 		border: solid;
 		border-radius: 10px;
@@ -161,6 +186,7 @@ main {
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
+
 	.boton_enviar {
 		width: 100%;
 		background: #1f53c5;
@@ -171,26 +197,43 @@ main {
 		font-size: 16px;
 		border-radius: 4px;
 	}
-	#galeria {
-		width: 100%;
-		padding-top: 5px;
-		margin: 2%;
-		display: table;
-	}
-	#mapa {
-		background-color: var(--main-bg-color);
-		width: 100%;
-	}
+
+	// #galeria {
+	// 	width: 100%;
+	// 	padding-top: 5px;
+	// 	margin: 2%;
+	// 	display: table;
+	// }
+
+	// #mapa {
+	// 	background-color: var(--main-bg-color);
+	// 	width: 100%;
+	// }
+
 	.grid-container {
 		display: grid;
 		grid-template-rows: auto auto;
 		grid-template-columns: auto auto;
+
 		img {
 			border: solid 1px whitesmoke;
 			margin: 12px;
 			border-radius: 15px;
 			width: 90%;
 			height: 90%;
+		}
+	}
+
+
+	.container {
+		section {
+			article {
+				.info-gral {
+					.tab-content {
+						width: 80%;
+					}
+				}
+			}
 		}
 	}
 }

@@ -35,7 +35,6 @@
   </header>
 
     <main class="bg">
-
       <div class="container">
         <p>
           <hr>
@@ -44,56 +43,123 @@
           <hr>
         </p>
 
-        <div id="carouselAlumnos" class="carousel slide carousel-fade" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselAlumnos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselAlumnos" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselAlumnos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <div id="carouselAlumnos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselAlumnos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
+              <button type="button" data-bs-target="#carouselAlumnos" data-bs-slide-to="1" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselAlumnos" data-bs-slide-to="2" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselAlumnos" data-bs-slide-to="3" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselAlumnos" data-bs-slide-to="4" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselAlumnos" data-bs-slide-to="5" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/Hulk_Adry.jpg" class="d-block w-80" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hulk</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../img/Predator_Adry.jpg" class="d-block w-80" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Depredador</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../img/Conan_Adry.jpg" class="d-block w-80" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Conan</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../img/Megalodón.jpg" class="d-block w-80" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Megalodón</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../img/She_Hulk_Adry.jpg" class="d-block w-80" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>She Hulk</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../img/Predator2_Adry.jpg" class="d-block w-80" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Depredador</h5>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../img/Hulk_Adry.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Hulk</h5>
-                <p>En plasticera</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="../img/Predator_Adry.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Depredador</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="../img/Conan_Adry.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Conan</h5>
-              </div>
-            </div>
-          </div>
-          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselAlumnos" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselAlumnos" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-          </button> -->
-        </div>
+
       </div>  
 
-      <div>
-        <div class="container">
-          <h1>¿En donde?</h1>
-          <h6>Faltan muchos datos</h6>         
-        </div>
-        
-        <div class="container">
-            <iframe id="mapa" class="iframe" src="https://maps.google.com/?ll=34.661927539984646,132.3427061774843&z=14&t=m&output=embed" height="400" width="50" 
-            frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
+      <hr>
 
+      <div class="container">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Metodología</button>
+            <button class="nav-link" id="nav-herramientas-tab" data-bs-toggle="tab" data-bs-target="#nav-herramientas" type="button" role="tab" aria-controls="nav-herramientas" aria-selected="false">Herramientas</button>
+            <button class="nav-link" id="nav-objetivo-tab" data-bs-toggle="tab" data-bs-target="#nav-objetivo" type="button" role="tab" aria-controls="nav-objetivo" aria-selected="false">Objetivo</button>
+            <button class="nav-link" id="nav-mapa-tab" data-bs-toggle="tab" data-bs-target="#nav-mapa" type="button" role="tab" aria-controls="nav-mapa" aria-selected="false">¿En donde?</button>
+          </div>
+        </nav>
+        <section id="notas">
+          <article class="info-gral">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                <div class="container">
+                  <h5>Metodología</h5>
+                  <p>
+                    El Taller está diseñado para realizarse como teórico-práctico, moldeando en las sesiones una pieza escultórica con asesoría permanente por parte del Facilitador y previa a una charla teórica.
+                    Las 51 horas del taller serán divididas en los siguientes tres ejercicios en los cuales se enseñará la técnica del modelado:
+                  </p>
+                  <ul>
+                    <li>Modelado de una cabeza humana.</li>
+                    <li>Modelado de un cuerpo humano.</li>
+                    <li>Modelado de una pieza de tema libre.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-herramientas" role="tabpanel" aria-labelledby="nav-herramientas-tab" tabindex="0">
+                <div class="container">
+                  <h5>Materiales personales</h5>
+                  <p>
+                    Los siguientes son los materiales que el alumno deberá traer para la realización de las obras en el taller:
+                  </p>
+                  <ul>
+                    <li>Plasticera</li>
+                    <li>Masilla epóxi</li>
+                    <li>Alambre galvanizado calibre 18 (Medio)</li>
+                    <li>1 tabla para base</li>
+                    <li>Estecas de diversos pliegues</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-objetivo" role="tabpanel" aria-labelledby="nav-objetivo-tab" tabindex="0">
+                <div class="container">
+                  <h5>Objetivo</h5>
+                  <p>
+                    El objetivo general del Taller es enseñar al participante de una manera práctica las técnicas y el uso de las herramientas del modelado en plasticera, para que aplique esos conocimientos  en crear esculturas que le servirán para exponer, decorar o vender, desarrollando a la vez sus habilidades creativas y expresándose de una manera plástica y artística.
+                  </p>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-mapa" role="tabpanel" aria-labelledby="nav-mapa-tab" tabindex="0">
+                <div class="container">
+                  <h5>¿En donde?</h5>
+                  <p>
+                    Los horarios son de 16hs a 19hs. En caso de tener inconvenientes para llegar a tiempo, se agradece notificar con la suficiente antelación posible.
+                  </p>
+                      <iframe class="iframe" src="https://maps.google.com/?ll=34.661927539984646,132.3427061774843&z=14&t=m&output=embed" height="300" width="600" 
+                        frameborder="0" style="border:0" allowfullscreen>
+                      </iframe>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
     </main>
 
     <div class="wpp-fixed">
@@ -107,7 +173,7 @@
 
     <footer class="bg">
       <nav>
-          <p>Seguinos en nuestras redes sociales</p>
+          <p>Te invitamos a seguirnos en nuestras redes sociales para que estés al tanto de nuestras actividades y novedades.</p>
           <div id="redes">
               <p>
                   <a href="https://www.facebook.com" target="_blank" class="icon_facebook">
@@ -133,7 +199,7 @@
           </div>
       </nav>
       <p>Copyright - 2022</p>
-  </footer>
+    </footer>
 
     <script src="https://kit.fontawesome.com/e968cd04a2.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
